@@ -1,0 +1,166 @@
+.profile{
+    display: flex;
+    padding: 0px 20px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.profile__settings{
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+.profile_switch{
+
+}
+.profile__avatar{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+
+ 
+
+.profile_avatar_hover{
+    border-radius: 50%;
+    border: 3px solid black;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 100;
+
+}
+
+ 
+
+.profile__name{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.profile__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 25px;
+  
+
+}
+.profile-description{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.profile__role{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    color: #636E72;
+}
+
+
+.profile-mods{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.profile-mods_switch{
+    flex-direction: column-reverse;
+  
+    
+}
+.profile__mode{
+    line-height: 15px;
+    text-transform: uppercase;
+    margin-right: 5px;
+    font-size: 12px;
+    color: slategray;
+    
+
+}
+.profile-mode__title{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.profile__mode_active{
+    font-size: 15px;
+    color: rgb(31, 100, 100);
+    font-weight: 800;
+   
+}
+.profile__marks{
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    font-size: 8px;
+}
+
+.profile__marks p{
+    margin-left: 5px;
+}
+
+.profile-documents{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 17px;
+}
+ 
+
+.profile-portfolio{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 10px;
+ 
+
+}
+.profile-portfolio__title{
+    margin-bottom: 10px;
+}
+
+.profile-reviews{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile__input{
+    margin-bottom: 10px;
+ 
+ 
+   
+    
+}
+
+.profile__select{
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.profile__label{
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #636E72;
+
+}

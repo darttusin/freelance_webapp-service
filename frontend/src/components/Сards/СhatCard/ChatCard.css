@@ -1,0 +1,39 @@
+.chat-card{
+    height: 80px;
+    width: 100%;
+    border: 1px solid #CECECE;
+    padding: 7px 20px;
+    display: flex;
+    cursor: pointer;
+   
+}
+
+
+.chat-card-text{
+    width: 100%;
+}
+.chat-card__image{
+    height: 100%;
+    margin-right: 10px;
+}
+
+.chat-card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-card__name{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.chat-card-text_lastmessage{
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.chat-card__time{
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 300;
+}

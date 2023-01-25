@@ -1,0 +1,86 @@
+version: '3.3'
+
+services:
+  db:
+    container_name: postgres-db-container
+    image: postgres
+    env_file: postgres.env
+    restart: always
+    expose:
+      - 5432
+
+  app:
+    container_name: app-container
+    build: ./backend_app
+    env_file:
+      - back.env
+    depends_on:
+      - db
+    restart: always
+    expose:
+      - 8000
+
+  bot:
+    container_name: bot-container
+    build: ./bot
+    env_file:
+      - bot.env
+    depends_on:
+      - db
+    restart: always
+    expose:
+      - 8081
+
+  admin:
+    build: ./admin
+    restart: always
+    expose:
+      - 3000
+    container_name: admin-container
+    environment:
+      - CHOKIDAR_USEPOLLING:{CHOKIDAR_USEPOLLING}
+    volumes:
+      - ./admin:/usr/src/app/react
+      - /usr/src/app/react/node_modules
+    depends_on:
+      - app
+
+  frontend:
+    container_name: frontend-container
+    restart: always
+    build: ./frontend
+    volumes:
+      - ./frontend/node_modules:/frontend/node_modules
+    depends_on:
+      - app
+    expose:
+      - 3000
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx-container
+    restart: always
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - etc-letsencrypt:/etc/letsencrypt
+      - www-html:/var/www/html
+    depends_on:
+      - frontend
+    ports:
+      - 80:80
+      - 443:443
+  #certbot:
+  #  image: certbot/certbot
+  #  depends_on:
+  #    - nginx
+  #  container_name: certbot
+  #  user: root
+  #  privileged: true
+  #  volumes:
+  #    - etc-letsencrypt:/etc/letsencrypt
+  #    - www-html:/var/www/html
+  #  command: certonly --webroot --webroot-path=/var/www/html --email nek_iy@mail.ru --agree-tos --no-eff-email --force-renewal -d fwbot.ru
+
+volumes:
+  etc-letsencrypt:
+  www-html:

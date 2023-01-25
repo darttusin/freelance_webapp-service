@@ -1,0 +1,38 @@
+.review{
+    padding: 0 20px;
+}
+
+
+.review__title{
+    cursor: pointer;
+} 
+
+.review__description{
+    font-size: 14px;
+    text-align: left;
+    color: slategrey;
+    margin-bottom: 5px;
+}
+
+
+.review__work-type{
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+.review-marks{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.review-marks__title{
+    font-size: 12px;
+}
+.review__feedback{
+    display: flex;
+
+}

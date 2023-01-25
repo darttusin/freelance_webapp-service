@@ -1,0 +1,19 @@
+.input{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.input__area{
+    border: 1px solid #0984E3;
+    border-radius: 3px;
+    padding: 15px 20px;
+    width: 100%;
+}
+
+
+.input__text{
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 6px;
+}

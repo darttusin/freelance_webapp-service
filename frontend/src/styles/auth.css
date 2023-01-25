@@ -1,0 +1,25 @@
+.auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px 66px;
+}
+
+.auth__title{
+    font-weight: 700;
+    font-size: 32px;
+    color: #636E72;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.auth-form{
+
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+ 
+    width: 100%;
+}

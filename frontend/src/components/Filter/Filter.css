@@ -1,0 +1,47 @@
+.adverts-filter{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.adverts-filter__label{
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+.adverts__button{
+    margin: 0 auto;
+    max-width: 200px;
+    margin-top: 50%;
+   
+}
+
+.adverts-filter-opntional{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.adverts-filter-opntional img{
+    cursor: pointer;
+}
+
+.adverts-filter-optional__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.adverts-filter-optional__header > .adverts-filter__label
+{
+    margin-bottom: 0px;
+}
+
+.adverts-filter-optional__header img{
+    cursor: pointer;
+    padding: 5px;
+}

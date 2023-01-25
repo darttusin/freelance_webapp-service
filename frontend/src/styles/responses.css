@@ -1,0 +1,26 @@
+.responses{
+    padding: 0px 20px;
+}
+
+
+.responses-header{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.responses-header__title{
+
+
+}
+.responses-header__title_active{
+    opacity: 0.2;
+    position: absolute;
+    top: 10px;
+
+
+}
+
+.responses-header__img{
+    margin-top: 10px;
+    width: 20px;
+}

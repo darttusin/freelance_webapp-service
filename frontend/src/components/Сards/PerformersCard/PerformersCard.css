@@ -1,0 +1,43 @@
+.performers-card{
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    min-height: 125px;
+    margin-bottom: 15px;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.performers__image{
+    margin-right: 10px;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.performers-marks{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+.performers-additional{
+    display: flex;
+    flex-direction: column;
+    width:100%
+    ;
+}
+.performers-additional__title{
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.performers-additional__description{
+    font-weight: 300;
+    font-size: 12px;
+}

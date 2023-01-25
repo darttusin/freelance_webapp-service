@@ -1,0 +1,27 @@
+.review {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin-bottom: 35px;
+  min-height: 150px;
+  height: 150px;
+  &__author {
+    font-weight: 800;
+    margin-bottom: 4px;
+  }
+
+  &__text {
+    margin-left: 5px;
+    margin-bottom: auto;
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+  &__rating {
+    display: flex;
+    direction: rtl;
+  }
+}

@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px 31px;
+    
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; */
+}
+
+.header__logo, .header-auth__item{
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #FFF3F3;
+    text-transform: uppercase;
+}
+
+.header-auth__item{
+    color: white;
+    margin-right: 5px;
+}
+
+.header-auth__item:last-child{
+    margin-right: 0px;
+   
+}
+
+
+.header-auth__item:hover{
+     transition: 0.3s all ease-in;
+    color: #96d4ff;
+}
+.header-auth{
+    display: flex;
+}

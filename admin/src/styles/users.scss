@@ -1,0 +1,33 @@
+.users {
+  background: white;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 30px;
+  background: #ffffff;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 41px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 19px;
+    color: #252733;
+  }
+
+  &-sorting {
+    display: flex;
+    color: #4b506d;
+    font-size: 14px;
+    font-weight: 600;
+    &__item {
+      &:first-child {
+        margin-right: 6px;
+      }
+    }
+  }
+}

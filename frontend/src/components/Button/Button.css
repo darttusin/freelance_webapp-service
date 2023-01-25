@@ -1,0 +1,42 @@
+.button_blue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 0px;
+    width: 100%;
+    font-weight: 800;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #0984E3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 11px;
+}
+
+
+.button_white{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 13px 40px;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: none;
+    cursor: pointer;
+
+}
+
+.button_black{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 13px 40px;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: black;
+    cursor: pointer;
+    color: white;
+
+}

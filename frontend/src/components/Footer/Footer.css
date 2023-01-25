@@ -1,0 +1,46 @@
+.footer{
+    display: flex;
+    bottom: 0;
+    left: 0;
+    justify-content: space-between;
+    width: 100%;
+  
+    background: #FBFBFB;
+ 
+}
+
+.footer-wrapper{
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.footer-tab{
+    padding: 13px;
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+ 
+}
+
+.footer-tab_big{
+     flex-basis: 26%;
+ 
+}
+.footer-tab_active{
+    background: #dbdbdb;
+}
+
+.tab__title{
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.tab__title_small{
+   
+    letter-spacing: 0px;
+    font-size: 10px;
+}

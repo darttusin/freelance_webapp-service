@@ -1,0 +1,10 @@
+.perfomers-header{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.perfomers{
+    padding: 0px 20px;
+}

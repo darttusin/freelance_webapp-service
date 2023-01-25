@@ -1,0 +1,30 @@
+.advert-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 15px;
+  height: 150px;
+  margin-bottom: 35px;
+  min-width: 200px;
+  &__title {
+    font-weight: 800;
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    word-break: break-word;
+  }
+
+  &__price {
+    margin-top: auto;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: right;
+  }
+}

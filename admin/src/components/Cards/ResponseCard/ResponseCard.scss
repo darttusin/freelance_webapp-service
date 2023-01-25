@@ -1,0 +1,31 @@
+.response-card {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+
+  &-text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 5px 10px;
+  }
+  &__author {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__text {
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  &__price {
+    margin-top: auto;
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,158 @@
+.chat__title{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+.single-chat{
+ 
+
+}
+.chat-header{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #EDF1F4;
+    height: 45px;
+    width: 100%;
+
+ 
+
+}
+
+.chat-header img{
+    height: 80%;
+    margin-right: 5px;
+}
+
+.chat-subheader{
+    display: flex;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.chat-subheader p{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.chat-body{
+    padding: 0px 20px;
+    overflow-y: scroll;
+    max-height: 80vh;
+}
+
+.chat-message{
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    max-width: 70%;
+}
+
+.chat-message_left{
+    justify-content: flex-end;
+    margin-left: auto;
+}
+.chat-message_right{
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+.chat-message p {
+    font-weight: 500;
+    font-size: 16px;
+    word-break: break-word;
+    margin-right: 20px;
+    
+}
+
+.chat-message img{
+    display: block;
+    max-height: 45px;
+    height: 100%;
+    margin-right: 10px;
+    margin-bottom: auto;
+  
+}
+
+.chat-message_reverse{
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: auto;
+   
+}
+
+.chat-message_reverse p {
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 20px;
+   
+}
+
+
+.chat-input{
+    width: 100%;
+    border: none;
+    height: 100%;
+  
+    margin-bottom: 0px;
+}
+
+.chat-footer{
+    background: white;
+    z-index: 1000;;
+    padding: 10px 5px;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+
+.chat-footer-left{
+    display: flex;
+    align-items: center;
+}
+
+.chat__image{
+    cursor: pointer;
+}
+
+.chat-header__unlock-btn{
+    cursor: pointer;
+    padding: 8px 5px;
+    font-size: 14px;
+    margin:  0 10px;
+    border-radius: 6px;
+    border: 0.5px solid black;
+}
+
+.chat-header__title-locked{
+    font-size: 12px;
+    margin: 0px 10px;
+    color: rgb(197, 100, 100);
+}
+
+.chat-header_set-button{
+    cursor: pointer;
+    padding: 3px 5px;
+    font-size: 12px;
+    margin:  0 10px;
+    border-radius: 6px;
+    border: 0.5px solid black;
+    margin-left: auto;
+
+}
+
+.chat-header__performer{
+    color: rgb(63, 149, 120);
+    font-size: 12px;
+    margin: 0 auto;
+}

@@ -1,0 +1,49 @@
+.job{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    z-index: 1000;
+    background: #E8E8E8;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.job-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px; 
+}
+
+
+.job-adverts{
+    overflow-y: scroll;
+    width: 100%;
+}
+
+
+.job-header__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.job-header__button{
+    margin-top: auto;
+}
+
+.close-button{
+    font-size: 28px;
+    font-weight: 400;
+    cursor: pointer;
+}

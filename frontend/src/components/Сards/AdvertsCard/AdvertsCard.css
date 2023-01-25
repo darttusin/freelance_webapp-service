@@ -1,0 +1,72 @@
+.adverts-card{
+    width: 100%;
+    display: flex;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 11px;
+    height: 150px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.adverts-img{
+    max-height: 100px;
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.adverts-additional{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.adverts-additional__title{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.adverts-additional-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adverts-additional__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 16px;
+    background: none;
+    border: 1px solid #000000;
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.adverts-additional__price{
+    color: #55EFC4;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.adverts-additional__desctiption{
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.adverts-additional-header__close{
+    font-size: 30px;
+    cursor: pointer;
+}

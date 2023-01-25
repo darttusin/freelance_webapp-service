@@ -1,0 +1,80 @@
+.modal-response-wrapper{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 10000;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.modal-response-content{
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 4px 4px 16px #000000
+
+}
+
+.modal-response-text{
+    margin-bottom: 15px;
+}
+
+
+.modal-response__price{
+    display: flex;
+    align-items: center;
+    width: 48%;
+    border: 1px solid black;
+    text-align: left;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+
+.modal-response-text__item:first-child{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.modal-response-text__item{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.modal-response__image{
+    max-height: 100px;
+    margin-right: 15px;
+
+}
+.modal-response-text__username{
+    
+}
+
+.modal-response-body{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.modal-response-footer{
+    max-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-response-footer__button{
+    font-size: 10px;
+    padding: 10px;
+    max-width: 48%;
+
+}

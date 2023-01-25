@@ -1,0 +1,66 @@
+.adverts{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.adverts-header{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.adverts-header img{
+    cursor: pointer;
+}
+
+.advert-input{
+    height: 51.5px;
+    width: 44%;
+    margin: 0px;
+}
+
+.advert-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advert-text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.advert__title{
+    font-weight: 700;
+    font-size: 27px;
+    margin-right: 12px;
+ 
+
+}
+
+.advert__price{
+    font-weight: 700;
+    font-size: 14px;
+    color: #55EFC4;
+    white-space: nowrap;
+}
+
+.advert__description{
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.responses-text{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}

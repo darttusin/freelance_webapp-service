@@ -1,0 +1,13 @@
+.pagination-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px !important;
+    margin-top: auto !important;
+}
+
+.pagination__link_active{
+    font-weight: 800;
+    border: 2px solid black;
+    padding: 5px;
+    
+}

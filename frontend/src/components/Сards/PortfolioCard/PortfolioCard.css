@@ -1,0 +1,36 @@
+.portfolio-card{
+    width: 100%;
+    cursor: pointer;
+    background: none;
+    /* height: 300px; */
+    border-radius: 5px;
+ 
+ 
+}
+
+.portfolio-card__title{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 700;
+
+}
+
+.portfolio-card__subtitle{
+    margin-left: 5px;
+    color: rgb(107, 107, 107);
+    
+}
+
+.portfolio-card-text{
+    padding: 5px 10px;
+    border: 1px solid rgb(190, 190, 190);
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    height: 100%;
+}
+.portfolio-card__img{
+    max-height: 300px;
+
+}

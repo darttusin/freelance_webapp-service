@@ -1,0 +1,39 @@
+.sidebar {
+  &-push {
+    width: 255px;
+    min-width: 255px;
+    height: 100vh;
+  }
+  width: 255px;
+  min-width: 255px;
+  padding-top: 32px;
+  height: 100vh;
+  position: fixed;
+  background: #363740;
+  &__title {
+    margin-bottom: 80px;
+    padding-left: 27px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #a4a6b3;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+  }
+
+  &-links {
+    &__item {
+      cursor: pointer;
+      text-align: left;
+      padding-left: 29px;
+      font-weight: 400;
+      font-size: 16px;
+      color: #a4a6b3;
+      letter-spacing: 0.2px;
+      padding: 18px 24px;
+      &_active {
+        background: #9fa2b421;
+        color: #dde2ff;
+      }
+    }
+  }
+}
